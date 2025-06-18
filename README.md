@@ -2,13 +2,18 @@
 
 
 #### Description
-* Built an AI agent that summarizes Wikipedia articles using LangChain’s WikipediaAPIWrapper and rephrases outputs via either PHI-2 or TinyLlama language model depending on user choice.
-* Implemented custom logic to fetch and display direct Wikipedia page links for extended user reading.
-* Developed a user-friendly Streamlit interface for querying topics and receiving concise, rephrased summaries.
+* Developed an agent-based application using LangChain's ReAct framework to generate simplified Wikipedia summaries.
+* Integrated Wikipedia search and a rephrasing tool as modular LangChain tools to enable tool-based reasoning and response generation.
+* Used lightweight open-source LLMs (Phi-2, TinyLLaMA) for low-resource inference via HuggingFace Transformers.
+* Implemented a Streamlit frontend with dynamic model selection, user query input, and real-time agent reasoning.
 
 
 #### Demo
 
 
-https://github.com/user-attachments/assets/12bbb5dc-e695-4c55-862f-3eaf344d62d3
+
+
+
+https://github.com/user-attachments/assets/55cfb69d-ba86-448c-a1f8-b97d48cd0bae
+
 
